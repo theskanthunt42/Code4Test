@@ -1,0 +1,14 @@
+EzFile Transfer Help:
+-m | --mode: Selecting modes
+Arguments: "client" or "server"
+-p | --port: Customize the port for use(Default: 35520)
+Argument: Any intenger between 0 to 65535
+-a | --address: The IP address to listen on/connect to
+When using client mode, The default address is 127.0.0.1(As the address to connect)
+When using server mode, The default address is 0.0.0.0(As the address to listen to)
+Argument: An IPv4 address
+-b | --buffer: Buffer size when sending files(Default: 4096)
+Argument: Any intenger
+-i | --infile: The file to send when using as client mode
+Argument: An vaild file url
+-h: Show this help message
